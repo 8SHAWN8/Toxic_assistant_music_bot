@@ -32,7 +32,7 @@ var {
             } catch {}
             try {
               embed.setDescription(`**Commands bound to: ** <#${client.channels.cache.get(player.textChannel).id}>`)
-              embed.addField(`<:Milrato:840259659163893820> Music Powered by Milrato.eu`, `**[Invite their Public Bot](https://discord.com/api/oauth2/authorize?client_id=784364932149280778&permissions=8&scope=bot)  •  [WEBSITE](https://milrato.eu)  •  [Get your OWN BOT](https://discord.gg/FQGXbypRf8)**`)
+              
             } catch {}
 
             await client.channels.cache.get(player.textChannel).send(embed.setColor(es.color).setThumbnail(es.thumb ? es.footericon : null)).catch(e=>console.log("this prevents a crash"));
