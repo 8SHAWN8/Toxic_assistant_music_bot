@@ -34,7 +34,7 @@ const client = new Discord.Client({
     afk: false,
     status : "dnd",
     activity: {
-      name: `${config.prefix}help || ! ToXicツ ERROR ANONYMOUS`,
+      name: `${config.prefix}help || S H A W N`,
       type: 'LISTENING',
     },
   }
